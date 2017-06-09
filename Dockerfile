@@ -1,4 +1,4 @@
-FROM cheggwpt/php7-nginx:1.0.2
+FROM cheggwpt/php7-nginx:1.1.6
 
 RUN	apk --update --no-cache add \
 		--virtual .libreoffice libreoffice && \
